@@ -24,7 +24,7 @@ public class MyErrorController implements ErrorController{
         responseHeaders.setPragma("no-cache");
 
         ApiError error = new ApiError("error: 404");
-        return new ResponseEntity<ApiError>(error,responseHeaders,HttpStatus.NOT_FOUND);
+        return new ResponseEntity<ApiError>(error,responseHeaders,HttpStatus.OK);
     }
 
     @Override
