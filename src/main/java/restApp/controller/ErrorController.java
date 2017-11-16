@@ -13,15 +13,16 @@ import restApp.entities.ApiError;
 public class ErrorController {
 
     @RequestMapping(value = "/error")
-    public ResponseEntity<ApiError> sendError(){
+    public String sendError(){
 
-        HttpHeaders responseHeaders = new HttpHeaders();
-        responseHeaders.setCacheControl("no-cache");
-        responseHeaders.setExpires(-1);
-        responseHeaders.setPragma("no-cache");
-
-        ApiError error = new ApiError("error: 404");
-        return new ResponseEntity<ApiError>(error,responseHeaders,HttpStatus.NOT_FOUND);
+        return "error";
+//        HttpHeaders responseHeaders = new HttpHeaders();
+//        responseHeaders.setCacheControl("no-cache");
+//        responseHeaders.setExpires(-1);
+//        responseHeaders.setPragma("no-cache");
+//
+//        ApiError error = new ApiError("error: 404");
+//        return new ResponseEntity<ApiError>(error,responseHeaders,HttpStatus.NOT_FOUND);
     }
 
 }
