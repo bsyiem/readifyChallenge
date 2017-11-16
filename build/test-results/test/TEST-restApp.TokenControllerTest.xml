@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="restApp.TokenControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-16T08:53:35" hostname="brandon-ThinkPad-S2" time="0.002">
+<testsuite name="restApp.TokenControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-16T08:58:29" hostname="brandon-ThinkPad-S2" time="0.003">
   <properties/>
-  <testcase name="sendTokenTest" classname="restApp.TokenControllerTest" time="0.002"/>
+  <testcase name="sendTokenTest" classname="restApp.TokenControllerTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
