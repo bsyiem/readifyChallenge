@@ -4,7 +4,7 @@ package restApp.controller;
  * Created by brandon on 16/11/17.
  * Controller for sending valid token
  */
-import org.springframework.http.CacheControl;
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
