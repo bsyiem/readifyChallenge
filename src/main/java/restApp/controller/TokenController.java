@@ -4,6 +4,9 @@ package restApp.controller;
  * Created by brandon on 16/11/17.
  * Controller for sending valid token
  */
+import org.springframework.http.CacheControl;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +20,11 @@ public class TokenController {
     @RequestMapping(method = RequestMethod.GET, value = "/api/{[T|t][O|o][K|k][E|e][N|n]}", produces = {"application/json"})
     public ResponseEntity<String> sendToken(){
 
-        return ResponseEntity.ok(token);
+        HttpHeaders responseHeaders = new HttpHeaders();
+        responseHeaders.setCacheControl(CacheControl.noCache().toString());
+        responseHeaders.setExpires(-1);
+        responseHeaders.setPragma("no-cache");
+
+        return new ResponseEntity<String>(token,responseHeaders, HttpStatus.OK);
     }
 }
