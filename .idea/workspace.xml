@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea632e-65ae-4785-b9ac-68ae99b1a859" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" afterPath="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
     </list>
     <ignored path="Readify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,18 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TokenController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/TokenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyErrorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/MyErrorController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,8 +68,8 @@
       <file leaf-file-name="WordReverseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="288">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +77,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleTypeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWordsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleTypeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -127,16 +137,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restApp/controller/TokenControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -582,10 +582,12 @@
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/FibonacciController.java" />
         <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/TriangleCheck.java" />
         <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
       </list>
     </option>
   </component>
@@ -1475,16 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/TriangleCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1508,6 +1500,32 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
