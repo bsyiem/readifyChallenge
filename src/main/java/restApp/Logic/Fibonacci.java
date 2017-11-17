@@ -15,7 +15,7 @@ public class Fibonacci {
         long b = 1;
 
         if(n < 0){
-            return generateFibonacciNegative(-a,-b,n);
+            return generateFibonacciNegative(a,b,n);
         }
         return generateFibonacciPositive(a,b,n);
     }
@@ -36,6 +36,6 @@ public class Fibonacci {
         if(n == 0){
             return a;
         }
-        return generateFibonacciNegative(b, Math.addExact(a,b), n+1);
+        return generateFibonacciNegative(b, Math.subtractExact(a,b), n+1);
     }
 }
