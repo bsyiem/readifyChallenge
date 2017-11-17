@@ -16,7 +16,7 @@ import restApp.Logic.Fibonacci;
 public class FibonacciController {
 
     @RequestMapping(value = "/api/fibonacci", produces = {"application/json", "text/json"})
-    public String sendFibonacciNumber(@RequestParam(required = true, name = "n") Integer n){
+    public String sendFibonacciNumber(@RequestParam(required = true, name = "n") long n){
         try{
             return String.valueOf(Fibonacci.getFibonacciNumberAt(n));
         }catch(Exception e){
