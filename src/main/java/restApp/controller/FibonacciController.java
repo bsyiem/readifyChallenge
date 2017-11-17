@@ -17,7 +17,12 @@ public class FibonacciController {
 
     @RequestMapping(value = "/api/fibonacci", produces = {"application/json", "text/json"})
     public String sendFibonacciNumber(@RequestParam(required = true, name = "n") int n){
-        return String.valueOf(Fibonacci.getFibonacciNumberAt(n));
+        try{
+            return String.valueOf(Fibonacci.getFibonacciNumberAt(n));
+        }catch(Exception e){
+            return null;
+        }
+
     }
 
 }

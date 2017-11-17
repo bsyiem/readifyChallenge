@@ -9,7 +9,7 @@ public class Fibonacci {
     returns the fibonacci number at position n
     @param n represents the position of the fibonacci number
      */
-    public static int getFibonacciNumberAt(int n)
+    public static int getFibonacciNumberAt(int n) throws ArithmeticException
     {
         int a = 0;
         int b = 1;
