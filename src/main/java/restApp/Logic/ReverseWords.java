@@ -20,7 +20,8 @@ public class ReverseWords {
 
         sb.insert(0,"\"");
         sb.append("\"");
-        
-        return sb.toString();
+
+        String result = sb.toString();
+        return result;
     }
 }
