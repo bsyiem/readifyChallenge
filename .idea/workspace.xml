@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea632e-65ae-4785-b9ac-68ae99b1a859" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" afterPath="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" afterPath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
     </list>
     <ignored path="Readify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,8 +88,8 @@
       <file leaf-file-name="ReverseWordsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="324">
+              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -1523,8 +1521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="324">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
           <folding />
         </state>
       </provider>
