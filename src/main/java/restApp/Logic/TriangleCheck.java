@@ -9,7 +9,7 @@ public class TriangleCheck {
         if (((a + b) < c) || ((a + c) < b) || ((b + c) < a)) {
             return "error";
         }
-        if ((a == b && b == c)) {
+        if ((a == b) && (b == c)) {
             return "equilateral";
         }
         if ((a == b) || (b == c) || (a == c)) {
