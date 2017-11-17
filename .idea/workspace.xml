@@ -100,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleCheck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TriangleCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/TriangleCheck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleCheckTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TriangleCheckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -585,8 +585,8 @@
         <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/TriangleCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java" />
       </list>
     </option>
   </component>
@@ -1468,14 +1468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1508,6 +1500,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding />
         </state>
       </provider>

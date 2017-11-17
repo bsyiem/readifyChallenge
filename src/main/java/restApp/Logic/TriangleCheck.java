@@ -5,10 +5,10 @@ package restApp.Logic;
  */
 public class TriangleCheck {
 
-    private static final String ERROR = "Error";
-    private static final String EQUILATERAL = "Equilateral";
-    private static final String ISOSCELES = "Isosceles";
-    private static final String SCALENE = "Scalene";
+    private static final String ERROR = "\"Error\"";
+    private static final String EQUILATERAL = "\"Equilateral\"";
+    private static final String ISOSCELES = "\"Isosceles\"";
+    private static final String SCALENE = "\"Scalene\"";
 
     public static String checkTriangle(int a, int b, int c) {
         if (((a + b) <= c) || ((a + c) <= b) || ((b + c) <= a)) {

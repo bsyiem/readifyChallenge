@@ -26,10 +26,10 @@ public class TriangleCheckTest {
         int b4 = 2;
         int c4 = 5;
 
-        assertEquals(TriangleCheck.checkTriangle(a1,b1,c1),"Scalene");
-        assertEquals(TriangleCheck.checkTriangle(a2,b2,c2),"Isosceles");
-        assertEquals(TriangleCheck.checkTriangle(a3,b3,c3),"Equilateral");
-        assertEquals(TriangleCheck.checkTriangle(a4,b4,c4),"Error");
+        assertEquals(TriangleCheck.checkTriangle(a1,b1,c1),"\"Scalene\"");
+        assertEquals(TriangleCheck.checkTriangle(a2,b2,c2),"\"Isosceles\"");
+        assertEquals(TriangleCheck.checkTriangle(a3,b3,c3),"\"Equilateral\"");
+        assertEquals(TriangleCheck.checkTriangle(a4,b4,c4),"\"Error\"");
     }
 
 }
