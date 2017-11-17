@@ -24,11 +24,11 @@ public class Fibonacci {
     helper function for getFibonacciNumberAt
      */
     private static Integer generateFibonacciPositive(int a, int b, int n) throws ArithmeticException{
-
         if(n == 0){
             return a;
         }
-        return generateFibonacciPositive(b, a+b, n-1);
+
+        return generateFibonacciPositive(b, Math.addExact(a,b), n-1);
     }
 
     private static Integer generateFibonacciNegative(int a, int b, int n) throws ArithmeticException{
@@ -36,6 +36,6 @@ public class Fibonacci {
         if(n == 0){
             return a;
         }
-        return generateFibonacciNegative(b, a+b, n+1);
+        return generateFibonacciNegative(b, Math.addExact(a,b), n+1);
     }
 }
