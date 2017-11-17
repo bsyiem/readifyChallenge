@@ -5,16 +5,21 @@ package restApp.Logic;
  */
 public class TriangleCheck {
 
+    private static final String ERROR = "Error";
+    private static final String EQUILATERAL = "Equilateral";
+    private static final String ISOSCELES = "Isosceles";
+    private static final String SCALENE = "Scalene";
+
     public static String checkTriangle(int a, int b, int c) {
-        if (((a + b) < c) || ((a + c) < b) || ((b + c) < a)) {
-            return "error";
+        if (((a + b) <= c) || ((a + c) <= b) || ((b + c) <= a)) {
+            return ERROR;
         }
         if ((a == b) && (b == c)) {
-            return "equilateral";
+            return EQUILATERAL;
         }
         if ((a == b) || (b == c) || (a == c)) {
-            return "isosceles";
+            return ISOSCELES;
         }
-        return "scalene";
+        return SCALENE;
     }
 }
