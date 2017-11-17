@@ -13,7 +13,7 @@ public class ReverseWords {
             String reverseWord = new StringBuffer(words[i]).reverse().toString();
             sb.append(reverseWord);
             if(i!= words.length-1){
-                sb.append(" ");
+                sb.append(' ');
             }
         }
         return sb.toString();

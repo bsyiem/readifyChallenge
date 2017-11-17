@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea632e-65ae-4785-b9ac-68ae99b1a859" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" afterPath="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" afterPath="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
     </list>
     <ignored path="Readify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,17 +75,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="288">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseWordsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseWordsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -583,9 +583,9 @@
         <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/TriangleCheck.java" />
         <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/TriangleCheckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/TriangleTypeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/restApp/controller/WordReverseController.java" />
         <option value="$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java" />
       </list>
     </option>
   </component>
@@ -1511,18 +1511,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restApp/Logic/ReverseWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restApp/Logic/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
